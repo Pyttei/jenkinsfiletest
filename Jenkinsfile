@@ -1,6 +1,6 @@
 String teststring = "no"
 
-if (teststring == "yes") {
+if (teststring == "no") {
     pipeline {
             stage('Example') {
                 steps {
