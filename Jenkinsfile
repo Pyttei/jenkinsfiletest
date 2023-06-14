@@ -3,9 +3,7 @@ String teststring = "no"
 if (teststring == "no") {
     pipeline {
             stage('Example') {
-                steps {
-                    echo 'Hello World'
-                }
-        }
+                echo 'Hello World'
+            }
     }
 } 
