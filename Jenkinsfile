@@ -4,7 +4,7 @@ if (teststring == "no") {
     pipeline {
             stage('Example') {
                 echo 'Hello World'
-                
+    
             }
     }
 } 
